@@ -1,0 +1,13 @@
+<h2>Todos los celulares</h2>
+
+<ul>
+    <li *ngFor="let celular of celulares">
+        <p>Marca: {{celular.marca}}</p>
+        <p>Serial: {{celular.serial}}</p>
+        <p>Fecha de Compra: {{celular.fechaDeCompra}}</p>
+        <p>Año de Lanzamiento: {{celular.anioDeLanzamiento}}</p>
+        <p>Precio: {{celular.precio}}</p>
+        <p>Sistema Operativo: {{celular.sistemaOperativo}}</p>
+        <p>Gama: {{celular.gama}}</p>
+    </li>
+</ul>
